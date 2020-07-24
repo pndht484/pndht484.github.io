@@ -1,11 +1,11 @@
 $(function() {
     $('#vegas').vegas({
         slides: [
-            { src: 'image/vegas_sample01.jpg' },
-            { src: 'image/vegas_sample02.jpg' },
-            { src: 'image/vegas_sample03.jpg' },
-            { src: 'image/vegas_sample04.jpg' },
-            { src: 'image/vegas_sample05.jpg' }
+            { src: 'vegas_sample01.jpg' },
+            { src: 'vegas_sample02.jpg' },
+            { src: 'vegas_sample03.jpg' },
+            { src: 'vegas_sample04.jpg' },
+            { src: 'vegas_sample05.jpg' }
         ],
         
        
