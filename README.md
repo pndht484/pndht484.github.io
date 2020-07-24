@@ -7,19 +7,19 @@
 
   <meta charset="UTF-8">
   <title>Portforio_practice_jquery</title>
-  <link rel="stylesheet" href="css/vegas.min.css" />
+  <link rel="stylesheet" href="vegas.min.css" />
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
  
   <link href="style111.css" rel="stylesheet">
 
-  <script type="text/javascript" src="js/vegas.min.js"> </script>
-  <script type="text/javascript" src="js/function.js"></script> 
+  <script type="text/javascript" src="vegas.min.js"> </script>
+  <script type="text/javascript" src="function.js"></script> 
 
-  <link rel="stylesheet" href="css/animate.min.css" />
-  <script type="text/javascript" src="js/animatedModal.min.js"> </script>
+  <link rel="stylesheet" href="animate.min.css" />
+  <script type="text/javascript" src="animatedModal.min.js"> </script>
 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-  <script src="js/parallax.js"></script>
+  <script src="parallax.js"></script>
 
   <style>
     #vegas {
@@ -36,7 +36,7 @@
   </style>
 
 <script>
-$('.parallax-window').parallax({Src: 'vegas_sample01_jpg'});
+$('.parallax-window').parallax({imageSrc: 'vegas_sample01_jpg'});
 </script>
 
 </head>
