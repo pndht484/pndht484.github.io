@@ -36,7 +36,7 @@
   </style>
 
 <script>
-$('.parallax-window').parallax({imageSrc: 'image/vegas_sample01_jpg'});
+$('.parallax-window').parallax({Src: 'vegas_sample01_jpg'});
 </script>
 
 </head>
@@ -79,7 +79,7 @@ $('.parallax-window').parallax({imageSrc: 'image/vegas_sample01_jpg'});
     <div class="box28" class="parallax-window" data-parallax="scroll">
       <span class="box-title">アクティビティ</span>
     <div class="content1">  
-    <img src="image/vegas_sample01.jpg" style="clip-path:  polygon(20% 0%, 100% 0%,100% 100%, 0% 100%);">
+    <img src="vegas_sample01.jpg" style="clip-path:  polygon(20% 0%, 100% 0%,100% 100%, 0% 100%);">
     </div>
    <div class="content2">  
     <p>アラブストリートには、ファッション雑貨店や飲食店がずらり。２時間もあれば回れるコンパクトなエリアです。アラビア絨毯や籐かご、ソケット帽子などのムスリムの生活必需品や、エキゾチックな香りのお土産がたくさん見つかるでしょう。MRTブギス駅から徒歩圏内なので道に迷う心配はありません。
@@ -96,7 +96,7 @@ $('.parallax-window').parallax({imageSrc: 'image/vegas_sample01_jpg'});
     </p>
   </div>
    <div class="content2">  
-    <img src="image/vegas_sample02.jpg" style="clip-path:  polygon(20% 0%, 100% 0%,100% 100%, 0% 100%);">
+    <img src="vegas_sample02.jpg" style="clip-path:  polygon(20% 0%, 100% 0%,100% 100%, 0% 100%);">
    </div>
   </div>
 </div>
@@ -105,7 +105,7 @@ $('.parallax-window').parallax({imageSrc: 'image/vegas_sample01_jpg'});
   <div class="box28-2">
     <span class="box-title-2">食べ歩き</span>
    <div class="content1">  
-    <img src="image/vegas_sample03.jpg" style="clip-path:  polygon(20% 0%, 100% 0%,100% 100%, 0% 100%);">
+    <img src="vegas_sample03.jpg" style="clip-path:  polygon(20% 0%, 100% 0%,100% 100%, 0% 100%);">
     </div>
    <div class="content2">  
     <p>「ハイナンチキンライス（海南鶏飯）」は、シンガポールグルメの代表格と言っても過言ではありません。鶏の脂で炒めた白米を、同じく鶏からとったスープで調理したご飯に、茹でた鶏肉が添えられたもの。あっさりとした旨味が日本人の口にもよく合います。
@@ -134,8 +134,8 @@ $('.parallax-window').parallax({imageSrc: 'image/vegas_sample01_jpg'});
 
   <div class="content1">
       <!--Your modal content goes here-->
-      <img src="image/html_css.jpg"  alt="" >
-      <img src="image/js.jpg" alt=""  >
+      <img src="html_css.jpg"  alt="" >
+      <img src="js.jpg" alt=""  >
   </div>
 </div>
 
@@ -211,7 +211,7 @@ $('.parallax-window').parallax({imageSrc: 'image/vegas_sample01_jpg'});
 <h5>↓連絡先：下名がお客様のお手伝いをさせて頂きます</h5>
 <div class="wrap-a" `**clearfix**`>
        <div class="content4-a">
-        <img src="image/4.jpg">
+        <img src="4.jpg">
       </div>
 </div>
 
