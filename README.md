@@ -184,7 +184,7 @@
 <footer>
   
   <!-- 背景を正方形で白抜き -->
-  <div class="wrap-a" `**clearfix**`>
+  <div class="wrap-a" >
   <ul class="pattern-02 square"　>
       <li >
         <div class="content1-a">
@@ -208,7 +208,7 @@
 </div>
 
 <h5>↓連絡先：下名がお客様のお手伝いをさせて頂きます</h5>
-<div class="wrap-a" `**clearfix**`>
+<div class="wrap-a" >
        <div class="content4-a">
         <img src="4.jpg">
       </div>
