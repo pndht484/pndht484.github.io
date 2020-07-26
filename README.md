@@ -87,7 +87,7 @@
   </div>
 </div>
 
-<div class="wrap" `**clearfix**`>
+<div class="wrap" >
   <div class="box28-1">
     <span class="box-title-1">ショッピング</span>
    <div class="content1">  
@@ -100,7 +100,7 @@
   </div>
 </div>
 
-<div class="wrap" `**clearfix**`>
+<div class="wrap" >
   <div class="box28-2">
     <span class="box-title-2">食べ歩き</span>
    <div class="content1">  
