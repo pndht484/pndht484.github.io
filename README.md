@@ -38,7 +38,7 @@
   </style>
 
 <script>
-$('.parallax-window').parallax({imageSrc: 'vegas_sample01_jpg'});
+$('.parallax-window').parallax({imageSrc: 'vegas_sample02_jpg'});
 </script>
 
 </head>
