@@ -6,21 +6,21 @@
 
   <meta charset="UTF-8">
   <title>Portforio_practice_jquery</title>
-  <link rel="stylesheet" href="vegas.min.css" />
+  <link rel="stylesheet" href="vegas.min.css?2019073101" />
   <script
-  src="https://code.jquery.com/jquery-3.5.1.js"
+  src="https://code.jquery.com/jquery-3.5.1.js?2019073101"
   integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
   crossorigin="anonymous"></script>
  
   <link href="style111.css" rel="stylesheet">
 
-  <script type="text/javascript" src="vegas.min.js"> </script>
-  <script type="text/javascript" src="function.js"></script> 
+  <script type="text/javascript" src="vegas.min.js?2019073101"> </script>
+  <script type="text/javascript" src="function.js?2019073101"></script> 
 
-  <link rel="stylesheet" href="animate.min.css" />
-  <script type="text/javascript" src="animatedModal.min.js"> </script>
+  <link rel="stylesheet" href="animate.min.css?2019073101" />
+  <script type="text/javascript" src="animatedModal.min.js?2019073101"> </script>
 
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css?2019073101" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
  
 
   <style>
