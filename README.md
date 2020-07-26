@@ -21,7 +21,7 @@
   <script type="text/javascript" src="animatedModal.min.js"> </script>
 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-  <script src="parallax.js"></script>
+ 
 
   <style>
     #vegas {
@@ -75,7 +75,7 @@
     </h2>
 
   <div class="wrap" `**clearfix**`>
-    <div class="box28" class="parallax-window" data-parallax="scroll">
+    <div class="box28" >
       <span class="box-title">アクティビティ</span>
     <div class="content1">  
     <img src="vegas_sample01.jpg" style="clip-path:  polygon(20% 0%, 100% 0%,100% 100%, 0% 100%);">
