@@ -74,7 +74,7 @@
       <i class="fas fa-kiwi-bird fa-2x faa-wrench "></i>海外旅行好きなサイト</p></div>
     </h2>
 
-  <div class="wrap" `**clearfix**`>
+  <div class="wrap" >
     <div class="box28" >
       <span class="box-title">アクティビティ</span>
     <div class="content1">  
