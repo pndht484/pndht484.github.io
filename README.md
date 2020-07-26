@@ -37,9 +37,6 @@
     }
   </style>
 
-<script>
-$('.parallax-window').parallax({imageSrc: 'vegas_sample02_jpg'});
-</script>
 
 </head>
 
