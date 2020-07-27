@@ -6,28 +6,42 @@
 
   <meta charset="UTF-8">
   <title>Portforio_practice_jquery</title>
-  <link rel="stylesheet" href="vegas.min.css?2019073101" />
+  <link rel="stylesheet" href="vegas.min.css" />
   <script
-  src="https://code.jquery.com/jquery-3.5.1.js?2019073101"
+  src="https://code.jquery.com/jquery-3.5.1.js"
   integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
   crossorigin="anonymous"></script>
  
   <link href="style111.css" rel="stylesheet">
 
-  <script type="text/javascript" src="vegas.min.js?2019073101"> </script>
-  <script type="text/javascript" src="function.js?2019073101"></script> 
+  <script type="text/javascript" src="vegas.min.js"> </script>
+  <script type="text/javascript" src="function.js"></script> 
 
-  <link rel="stylesheet" href="animate.min.css?2019073101" />
-  <script type="text/javascript" src="animatedModal.min.js?2019073101"> </script>
+  <link rel="stylesheet" href="css/animate.min.css" />
+  <script type="text/javascript" src="animatedModal.min.js"> </script>
 
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css?2019073101" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
  
+  
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/i18n/jquery.ui.datepi">
+</script>
+<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/ui-lightness/jquery-ui.css" >
+
 
   <style>
+    @media (min-width: 360px) {
     #vegas {
-      width: 100vw;
-      height: 100vh;
-    }
+      padding:0px;
+      width: 120vw;
+      height: 90vh;
+    }}
+    @media (max-width: 360px) {
+    #vegas {
+      padding:0px;
+      width: 60vw;
+      height: 40vh;
+    }}
 
     #btn-close-modal {
       width: 100%;
@@ -37,6 +51,14 @@
     }
   </style>
 
+<script>
+  $(function() {
+    $("#datepicker").datepicker();
+    $("#datepicker").datepicker("option", "showOn", 'button');
+    $("#datepicker").datepicker("option", "buttonImageOnly", true);
+    $("#datepicker").datepicker("option", "buttonImage", 'ico_calendar.png');
+  });
+</script>
 
 </head>
 
@@ -46,7 +68,7 @@
   <div class="body1">
     <header class="header">
       <div class="content-wrapper header-nav">
-        <h1><i class="fas fa-frog fa-spin"></i>週末副業社</h1>
+      <h1 style="left"><i class="fas fa-frog fa-spin"></i>週末副業社</h1>
         <nav>
           <ul>
             <li><a href="#">トップページ</a></li>
@@ -74,9 +96,10 @@
       <i class="fas fa-kiwi-bird fa-2x faa-wrench "></i>海外旅行好きなサイト</p></div>
     </h2>
 
-  <div class="wrap" >
+    <div class="wrap" >
     <div class="box28" >
-      <span class="box-title">アクティビティ</span>
+    <span class="box-title">アクティビティ</span>
+    
     <div class="content1">  
     <img src="vegas_sample01.jpg" style="clip-path:  polygon(20% 0%, 100% 0%,100% 100%, 0% 100%);">
     </div>
@@ -90,6 +113,7 @@
 <div class="wrap" >
   <div class="box28-1">
     <span class="box-title-1">ショッピング</span>
+   
    <div class="content1">  
     <p>チャイナタウン駅から直通のアーケード街がパゴダストリート。雑貨店がひしめきあうメインストリートです。古くからの老舗レストランや最新雑貨ショップまで、新旧入り混じったチャイナタウンをくまなく散策してみましょう。きっとお気に入り点が見付かるハズ？
     </p>
@@ -103,6 +127,7 @@
 <div class="wrap" >
   <div class="box28-2">
     <span class="box-title-2">食べ歩き</span>
+    
    <div class="content1">  
     <img src="vegas_sample03.jpg" style="clip-path:  polygon(20% 0%, 100% 0%,100% 100%, 0% 100%);">
     </div>
@@ -208,11 +233,16 @@
 </div>
 
 <h5>↓連絡先：下名がお客様のお手伝いをさせて頂きます</h5>
-<div class="wrap-a" >
+<div class="wrap-a" `**clearfix**`>
        <div class="content4-a">
         <img src="4.jpg">
       </div>
 </div>
+
+<h5>カレンダー</h5>
+<input type="text" id="datepicker">
+
+
 
 </footer>
 </html>
