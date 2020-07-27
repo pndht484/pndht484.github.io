@@ -1,0 +1,602 @@
+@charset "UTF-8";
+
+/*========= base ===========*/
+
+
+html {
+  margin: 0;
+  padding:0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", sans-serif;
+  font-weight: 500;
+  color: rgba(245, 247, 240, 0.829);
+  line-height: 2.0;
+  background: url("image/3.jpg");
+  background-size: 150%;
+  background-color: #C0C0C0;
+ }
+
+
+
+ .body1 {
+  margin: 0;
+  padding: 0;
+  background: rgba(10, 1, 7, 0.925);
+ }
+
+h2,h3 {
+  margin:0;
+  padding: 0;
+}
+
+
+
+img {
+  width: 50%;
+  vertical-align: bottom;
+}
+
+ul,li,dl,dt,dd {
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+
+a { 
+  text-decoration: none;
+  color: rgb(245, 238, 238);
+}
+
+a:hover { 
+  transition: .3s;
+  opacity: 0.6;
+}
+
+section {
+  margin-bottom: 120px;
+}
+
+.content-wrapper {
+   width: 1000px;
+   margin: 0 auto;
+   padding:0px;
+ }
+
+ .header {
+    width: 100%;
+ }
+ 
+ 
+.follow-me li a[href*="facebook.com"]::before       { background-color: #3b5998; content: "\f09a"; }
+.follow-me {
+  list-style: none;
+  margin: 0 0 -8px;
+  overflow: hidden;
+  padding: 0;
+}
+.follow-me li {
+  float: left;
+  margin: 0 8px 8px 0;
+  padding: 0;
+}
+.follow-me li a::before {
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  color: #fff;
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: 16px;
+  height: 44px; /* Button height */
+  line-height: 44px; /* Button height */
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  text-align: center;
+  width: 44px; /* Button width */
+}
+.follow-me li a:hover::before {
+  opacity: 0.7;
+}
+
+@media (min-width: 800px) {
+ .header-nav {
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+ }
+ 
+ .header nav ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+ }
+ 
+ .header nav ul li {
+    margin-right: 50px;
+ }
+ .work {
+  width: 100%;
+  padding-top:50px;
+  padding-left:10px;
+  position: relative;
+}
+}
+.work::before {
+  content: '';
+  background: #FF9F80;
+  position: absolute;
+  width: 100%;
+  height: 600px;
+  z-index: -1;
+  margin: 30px 20px 30px;
+ 
+}
+
+.work h2 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.work ul dl{
+  display: flex;
+  justify-content: center;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.work ul li {
+  width: 300px;
+}
+
+.work ul li figure {
+  margin: 0;
+}
+
+
+
+.singleTitle__heading{
+  background: #e000e0ee;
+  margin: 0;
+}
+
+
+.icon-calendar 
+{
+  font-size: .75em;
+  background: #FF9F80;
+  color: #fff;
+  padding: 5px 5px 3px;
+  margin-left: 5px;
+  border-radius: 3px;}
+
+  .icon-calendar1 
+{
+  font-size: .75em;
+  background: #FF9FFF;
+  color: #fff;
+  padding: 5px 5px 3px;
+  margin-left: 5px;
+  border-radius: 3px;}
+
+  .sample-text1 {
+    font-size: 20px;
+    font-style:italic; 
+    color : rgb(13, 202, 29);
+    font-weight: bold;
+    animation-name: fadein;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    margin: 30px 20px 30px;
+    text-align: center;
+    writing-mode: vertical-lr;
+    border:solid 1px black
+    }
+
+    .btn-flat-simple {
+      position: relative;
+      display: inline-block;
+      font-weight: bold;
+      padding: 0.25em 0.5em;
+      text-decoration: none;
+      color: #00BCD4;
+      background: #ECECEC;
+      transition: .4s;
+      margin-left: 200px;
+    }
+    
+    .btn-flat-simple:hover {
+      background: #00bcd4;
+      color: white;
+    }
+
+
+    .btn-flat-dashed-border {
+      display: inline-block;
+      padding: 0.5em 1em;
+      text-decoration: none;
+      color: #67c5ff;
+      border: dashed 1px #67c5ff;
+      border-radius: 3px;
+      transition: .4s;
+    }
+
+        .btn-flat-dashed-border:hover {
+      border-style: dotted;
+      color: #679efd;
+    }
+
+@keyframes fadein {
+from {
+    opacity: 0;
+    transform: translateY(20px);
+}
+to {
+    opacity: 1;
+    transform: translateY(0);
+}
+}
+ 
+
+.box23 {
+  position: relative;
+  margin: 2em 0 2em 40px;
+  padding: 8px 15px;
+  background: #fff0c6;
+  border-radius: 30px;
+}
+.box23:before{font-family: FontAwesome;
+  content: "\f111";
+  position: absolute;
+  font-size: 15px;
+  left: -40px;
+  bottom: 0;
+  color: #fff0c6;
+}
+.box23:after{
+  font-family: FontAwesome;
+  content: "\f111";
+  position: absolute;
+  font-size: 23px;
+  left: -23px;
+  bottom: 0;
+  color: #fff0c6;
+}
+.box23 p {
+  margin: 0; 
+  padding: 0;
+}
+
+/*
+ 2カラム部分
+*/
+
+.wrap {
+  width: 1200px;
+  height:300px;
+  background: rgba(58, 40, 52, 0.925);
+  }
+  .content1 {
+  margin:0px 0px 0px;
+  width: 500px;
+  height:200px;
+ 
+  
+  }
+  .content2 {
+  margin:0px 0px 0px;
+  width: 500px;
+  height:200px;
+  
+  }
+
+    .wrap-a {
+      width: 1200px;
+      height:100px;
+    
+      }
+    .content1-a {
+      margin:10px 0px 0px;
+      width: 50px;
+      height:10px;
+      display : flex;
+      display : inline-flex;
+      justify-content:flex-start;
+      flex:1;
+      }
+      .content2-a {
+      margin:10px 0px 0px;
+      width: 50px;
+      height:10px;
+      display : flex;
+      display : inline-flex;
+      justify-content:flex-start;
+      flex:1;
+    }
+      .content3-a {
+        margin:10px 0px 0px;
+        width: 50px;
+        height:10px;
+        display : flex;
+      display : inline-flex;
+      justify-content:flex-start;
+      flex:1;
+      }
+      .content4-a {
+        margin:0px 0px 0px;
+        width: 500px;
+        height:100px;
+        float: left;
+        }
+/*
+    アイコンの色が変わる(背景を白抜き)
+*/
+.pattern-02 .icon-wrap {
+  display: block;
+  color: black;
+}
+
+.pattern-02 .icon-wrap.icon-wrap-facebook,
+.pattern-02 .icon-wrap.icon-wrap-twitter {
+  /* facebookとTwitterのアイコンは正方形なので、上下左右のpaddingの値は同じ */
+  padding: 7px;
+}
+
+.pattern-02 .icon-wrap.icon-wrap-line {
+  /* LINEのアイコンは縦に長い(= 正方形ではない)ので左右のpaddingを少し多めにとる */
+  padding: 7px 10px;
+}
+
+.pattern-02 .icon-wrap:hover {
+  background-color: white;
+}
+
+.pattern-02.square .icon-wrap:hover {
+  border-radius: 25%; /* 正方形 */
+}
+.pattern-02.circle .icon-wrap:hover {
+  border-radius: 50%; /* 円 */
+}
+
+.pattern-02 .icon-wrap:hover.icon-wrap-facebook {
+  color: #1877f2;
+}
+
+.pattern-02 .icon-wrap:hover.icon-wrap-twitter {
+  color: #1da1f2;
+}
+
+.pattern-02 .icon-wrap:hover.icon-wrap-line {
+  color: #00B900;
+}
+
+/*
+  アイコンの色が変わる(背景を白抜き)
+*/
+.pattern-02 .icon-wrap {
+  display: block;
+  color: black;
+}
+
+.pattern-02 .icon-wrap.icon-wrap-facebook,
+.pattern-02 .icon-wrap.icon-wrap-twitter {
+  /* facebookとTwitterのアイコンは正方形なので、上下左右のpaddingの値は同じ */
+  padding: 7px;
+}
+
+.pattern-02 .icon-wrap.icon-wrap-line {
+  /* LINEのアイコンは縦に長い(= 正方形ではない)ので左右のpaddingを少し多めにとる */
+  padding: 7px 10px;
+}
+
+.pattern-02 .icon-wrap:hover {
+  background-color: white;
+}
+
+.pattern-02.square .icon-wrap:hover {
+  border-radius: 25%; /* 正方形 */
+}
+.pattern-02.circle .icon-wrap:hover {
+  border-radius: 50%; /* 円 */
+}
+
+.pattern-02 .icon-wrap:hover.icon-wrap-facebook {
+  color: #1877f2;
+}
+
+.pattern-02 .icon-wrap:hover.icon-wrap-twitter {
+  color: #1da1f2;
+}
+
+.pattern-02 .icon-wrap:hover.icon-wrap-line {
+  color: #00B900;
+}
+
+.box27 {
+  position: relative;
+  margin: 2em 0;
+  padding: 0.5em 2em;
+  border: solid 3px #62c1ce;
+}
+.box27 .box-title {
+  position: absolute;
+  display: inline-block;
+  top: -27px;
+  left: -3px;
+  padding: 0 9px;
+  height: 25px;
+  line-height: 25px;
+  font-size: 17px;
+  background: #62c1ce;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 5px 5px 0 0;
+}
+.box27 p {
+  margin: 0; 
+  padding: 0;
+}
+
+div.h2 > p {
+ border-bottom : solid 2px #555;
+  }
+
+  .translate{
+    width:1200px;
+    height:50px;
+    background:#f15c06e7;
+    animation: anim 3s;
+  }
+  
+  @keyframes anim {
+    0% {
+    transform: translateX(700px);
+    }
+  
+    100% {
+    transform: translateX(0px);
+    }
+  }
+  .example {/*親div*/
+    position: relative;/*相対配置*/
+    }
+  
+    .example p {
+      position: absolute;
+      color: white;/*文字は白に*/
+      font-weight: bold; /*太字に*/
+      font-size: 4em;/*サイズ2倍*/
+      font-family :Quicksand, sans-serif;/*Google Font*/
+      top: 50;
+      left: 50;
+      }
+
+      @media (min-width: 360px) {
+      .box28 {
+        position: absolute;
+        margin: 1em 0;
+        padding: 50px 10px 7px;
+        display : flex;
+        display : inline-flex;
+        justify-content:flex-start;
+        flex:1;
+        border: solid 2px #FFC107;
+    }}
+    @media (max-width: 360px) {
+      .box28 {
+        position: absolute;
+        margin: 1em 0;
+        padding: 50px 100px 70px;
+        display : flex;
+        display : inline-flex;
+        flex-direction:column;
+        flex:1;
+        border: solid 2px #FFC107;
+      }}
+
+    .box28 .box-title {
+        position: absolute;
+        display:block;
+        top: -2px;
+        left: -2px;
+        padding: 0 9px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 17px;
+        background: #FFC107;
+        color: #ffffff;
+        font-weight: bold;
+            }
+         
+
+    .box28-1 {
+      position: absolute;
+      margin: 1em 0;
+      padding: 50px 10px 7px;
+      display : flex;
+        display : inline-flex;
+        justify-content:flex-start;
+        flex:1;
+      border: solid 2px #f70ed4;
+   }
+  .box28-1 .box-title-1 {
+      position: absolute;
+      display: block;
+      top: -2px;
+      left: -2px;
+      padding: 0 9px;
+      height: 25px;
+      line-height: 25px;
+      font-size: 17px;
+      background: #f70ed4;
+      color: #ffffff;
+      font-weight: bold;
+  }
+  .box28-2 {
+    position: absolute;
+    margin: 2em 0;
+    padding: 50px 10px 7px;
+    display : flex;
+        display : inline-flex;
+        justify-content:flex-start;
+        flex:1;
+    border: solid 2px #1ff7ec;
+}
+.box28-2 .box-title-2 {
+    position: absolute;
+    display: block;
+    top: -2px;
+    left: -2px;
+    padding: 0 9px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 17px;
+    background: #1ff7ec;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.parallax-window {
+  min-height: 400px;
+  background: transparent;
+}
+
+h5 {
+  margin:0px 0px 0px;
+  position: relative;
+  padding: 0em;
+  background: #0a0c0b;
+  color: white;
+}
+
+h5::before {
+  position: absolute;
+  content: '';
+  top: 100%;
+  left: 0;
+  border: none;
+  border-bottom: solid 15px transparent;
+  border-right: solid 20px rgb(149, 158, 155);
+}
+
+h4 {
+  margin:0px 0px 0px;
+  position: relative;
+  padding: 0em;
+  background: #0a0c0b;
+  color: white;
+}
+
+h4::before {
+  position: absolute;
+  content: '';
+  top: 100%;
+  left: 0;
+  border: none;
+  border-bottom: solid 15px transparent;
+  border-right: solid 20px rgb(13, 17, 16);
+}
+
