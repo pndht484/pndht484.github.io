@@ -133,6 +133,31 @@ section {
   position: relative;
 }
 }
+@media (max-width: 360px) {
+  .header-nav {
+     height: 100px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+  }
+  
+  .header nav ul {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+  }
+  
+  .header nav ul li {
+     margin-right: 50px;
+  }
+  .work {
+   width: 100%;
+   padding-top:50px;
+   padding-left:10px;
+   position: relative;
+ }
+ }
+
 .work::before {
   content: '';
   background: #FF9F80;
