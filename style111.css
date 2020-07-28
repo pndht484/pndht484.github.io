@@ -282,24 +282,47 @@ to {
  2カラム部分
 */
 
-.wrap {
+@media (min-width: 360px) {
+ .wrap {
   width: 1200px;
   height:300px;
   background: rgba(58, 40, 52, 0.925);
-  }
+  }}
+
+  @media (max-width: 360px) {
+    .wrap {
+     width: 360px;
+     height:300px;
+     background: rgba(58, 40, 52, 0.925);
+     }}
+   
+
+@media (min-width: 360px) {
   .content1 {
   margin:0px 0px 0px;
   width: 500px;
   height:200px;
- 
-  
-  }
+}}
+@media (max-width: 360px) {
+  .content1 {
+    margin:0px 0px 0px;
+    width: 360px;
+    height:200px;
+  }}
+
+@media (min-width: 360px) {
   .content2 {
   margin:0px 0px 0px;
   width: 500px;
   height:200px;
-  
-  }
+  }}
+  @media (max-width: 360px) {
+    .content2 {
+      margin:0px 0px 0px;
+      width: 360px;
+      height:200px;
+      }}
+
 
     .wrap-a {
       width: 1200px;
