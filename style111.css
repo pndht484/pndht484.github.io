@@ -554,8 +554,8 @@ div.h2 > p {
     @media screen and (max-width: 360px) {
       .box28 {
         position: relative;
-        margin: 1em 0;
-        padding: 50px 100px 70px;
+        margin: 2em 0;
+  padding: 0.5em 2em;
         display : flex;
         display : inline-flex;
         flex-direction:column;
