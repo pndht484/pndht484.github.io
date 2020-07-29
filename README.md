@@ -98,7 +98,7 @@
     </h2>
 
     <div class="wrap" >
-    <div class="box27" >
+    <div class="box28-1" >
     <span class="box-title-1">アクティビティ</span>
     
     <div class="content1">  
@@ -112,7 +112,7 @@
 </div>
 
 <div class="wrap" >
-  <div class="box27">
+  <div class="box28-2">
     <span class="box-title-2">ショッピング</span>
    
    <div class="content1">  
@@ -126,7 +126,7 @@
 </div>
 
 <div class="wrap" >
-  <div class="box27">
+  <div class="box28-3">
     <span class="box-title-3">食べ歩き</span>
     
    <div class="content1">  
