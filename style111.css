@@ -555,7 +555,7 @@ div.h2 > p {
       .box28 {
         position: relative;
         margin: 2em 0;
-  padding: 0.5em 2em;
+  padding: 50px 10px 7px 0px;
         display : flex;
         display : inline-flex;
         flex-direction:column;
