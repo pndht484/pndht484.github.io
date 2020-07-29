@@ -135,7 +135,7 @@ section {
 }
 @media screen and (max-width: 360px) {
   .header-nav {
-     height: 200px;
+     height: 250px;
      display: flex;
      flex-direction: column;
      align-items: center;
@@ -540,30 +540,7 @@ div.h2 > p {
       left: 50;
       }
 
-     @media screen and (min-width: 360px) {
-      .box28 {
-        position: relative;
-        margin: 1em 0;
-        padding: 50px 10px 7px;
-        display : flex;
-        display : inline-flex;
-        justify-content:flex-start;
-        flex:1;
-        border: solid 2px #FFC107;
-    }}
-    @media screen and (max-width: 360px) {
-      .box28 {
-        position: relative;
-        margin: 2em 0;
-  padding: 50px 10px 7px 0px;
-        display : flex;
-        display : inline-flex;
-        flex-direction:column;
-        flex:1;
-        border: solid 2px #FFC107;
-      }}
-
-    .box28 .box-title {
+     .box27 .box-title-1 {
         position: absolute;
         display:block;
         top: -2px;
@@ -578,17 +555,7 @@ div.h2 > p {
             }
          
 
-    .box28-1 {
-      position: absolute;
-      margin: 1em 0;
-      padding: 50px 10px 7px;
-      display : flex;
-        display : inline-flex;
-        justify-content:flex-start;
-        flex:1;
-      border: solid 2px #f70ed4;
-   }
-  .box28-1 .box-title-1 {
+    .box27 .box-title-2 {
       position: absolute;
       display: block;
       top: -2px;
@@ -601,17 +568,8 @@ div.h2 > p {
       color: #ffffff;
       font-weight: bold;
   }
-  .box28-2 {
-    position: absolute;
-    margin: 2em 0;
-    padding: 50px 10px 7px;
-    display : flex;
-        display : inline-flex;
-        justify-content:flex-start;
-        flex:1;
-    border: solid 2px #1ff7ec;
-}
-.box28-2 .box-title-2 {
+
+.box27 .box-title-3 {
     position: absolute;
     display: block;
     top: -2px;
