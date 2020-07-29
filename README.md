@@ -5,6 +5,7 @@
 <head>
 
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
   <title>Portforio_practice_jquery</title>
   <link rel="stylesheet" href="vegas.min.css" />
   <script
@@ -39,8 +40,8 @@
     @media (max-width: 360px) {
     #vegas {
       padding:0px;
-      width: 60vw;
-      height: 40vh;
+      width: 90vw;
+      height: 60vh;
     }}
 
     #btn-close-modal {
@@ -97,7 +98,7 @@
     </h2>
 
     <div class="wrap" >
-    <div class="box28" >
+    <div class="box27" >
     <span class="box-title">アクティビティ</span>
     
     <div class="content1">  
@@ -111,7 +112,7 @@
 </div>
 
 <div class="wrap" >
-  <div class="box28-1">
+  <div class="box27">
     <span class="box-title-1">ショッピング</span>
    
    <div class="content1">  
@@ -125,7 +126,7 @@
 </div>
 
 <div class="wrap" >
-  <div class="box28-2">
+  <div class="box27">
     <span class="box-title-2">食べ歩き</span>
     
    <div class="content1">  
