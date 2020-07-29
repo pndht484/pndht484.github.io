@@ -99,7 +99,7 @@
 
     <div class="wrap" >
     <div class="box27" >
-    <span class="box-title">アクティビティ</span>
+    <span class="box-title-1">アクティビティ</span>
     
     <div class="content1">  
     <img src="vegas_sample01.jpg" style="clip-path:  polygon(20% 0%, 100% 0%,100% 100%, 0% 100%);">
@@ -113,7 +113,7 @@
 
 <div class="wrap" >
   <div class="box27">
-    <span class="box-title-1">ショッピング</span>
+    <span class="box-title-2">ショッピング</span>
    
    <div class="content1">  
     <p>チャイナタウン駅から直通のアーケード街がパゴダストリート。雑貨店がひしめきあうメインストリートです。古くからの老舗レストランや最新雑貨ショップまで、新旧入り混じったチャイナタウンをくまなく散策してみましょう。きっとお気に入り点が見付かるハズ？
@@ -127,7 +127,7 @@
 
 <div class="wrap" >
   <div class="box27">
-    <span class="box-title-2">食べ歩き</span>
+    <span class="box-title-3">食べ歩き</span>
     
    <div class="content1">  
     <img src="vegas_sample03.jpg" style="clip-path:  polygon(20% 0%, 100% 0%,100% 100%, 0% 100%);">
