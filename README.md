@@ -5,7 +5,7 @@
 <head>
 
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portforio_practice_jquery</title>
   <link rel="stylesheet" href="vegas.min.css" />
   <script
