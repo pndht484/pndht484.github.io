@@ -317,7 +317,7 @@ to {
  @media screen and (max-width: 360px) {
     .wrap {
      width: 360px;
-     height:500px;
+     height:650px;
      background: rgba(58, 40, 52, 0.925);
      }}
    
@@ -332,7 +332,7 @@ to {
   .content1 {
     margin:0px 0px 0px;
     width: 360px;
-    height:400px;
+    height:650px;
   }}
 
 @media screen and (min-width: 360px) {
@@ -345,7 +345,7 @@ to {
     .content2 {
       margin:0px 0px 0px;
       width: 360px;
-      height:400px;
+      height:650px;
       }}
 
 
