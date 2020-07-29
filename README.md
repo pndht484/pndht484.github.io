@@ -140,6 +140,7 @@
 </div>
 </div>
 
+<div>
 <!--Call your modal-->
 <ul>
   <h4>コーディングツール</h4>
@@ -147,7 +148,7 @@
     <a id="demo01" href="#animatedModal" >WORKS</a>
     </li>
 </ul>
-
+</div>
 
 <!--DEMO01-->
 <div id="animatedModal">
@@ -240,9 +241,10 @@
       </div>
 </div>
 
+<div>
 <h5>カレンダー</h5>
 <input type="text" id="datepicker">
-
+</div>
 
 
 </footer>
