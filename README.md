@@ -30,14 +30,14 @@
     @media (min-width: 360px) {
     #vegas {
       padding:0px;
-      width: 120vw;
-      height: 90vh;
+      width: 1200px;
+      height: 900px;
     }}
     @media (max-width: 360px) {
     #vegas {
       padding:0px;
-      width: 90vw;
-      height: 60vh;
+      width: 700px;
+      height: 500px;
     }}
 
     #btn-close-modal {
@@ -50,13 +50,13 @@
 
 </head>
 
-<body >
+<body>
 
  
   <div class="body1">
     <header class="header">
       <div class="content-wrapper header-nav">
-      <h1 style="left"><i class="fas fa-frog fa-spin"></i>週末副業社</h1>
+      <h1><i class="fas fa-frog fa-spin"></i>週末副業社</h1>
         <nav>
           <ul>
             <li><a href="#">トップページ</a></li>
