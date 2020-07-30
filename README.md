@@ -36,8 +36,8 @@
     @media (max-width: 360px) {
     #vegas {
       padding:0px;
-      width: 700px;
-      height: 500px;
+      width: 360px;
+      height: 360px;
     }}
 
     #btn-close-modal {
