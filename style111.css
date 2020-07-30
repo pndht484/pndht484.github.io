@@ -26,6 +26,7 @@ body {
   margin: 0;
   padding: 0;
   background: rgba(10, 1, 7, 0.925);
+   font-family: 'Playfair Display SC', serif;
  }
 
 h2,h3 {
