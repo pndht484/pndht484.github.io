@@ -26,7 +26,7 @@ body {
   margin: 0;
   padding: 0;
   background: rgba(10, 1, 7, 0.925);
-   font-family: 'Playfair Display SC', serif;
+   
  }
 
 .wf-mplus1p { font-family: "M PLUS 1p"; }
@@ -538,7 +538,7 @@ div.h2 > p {
       color: white;/*文字は白に*/
       font-weight: bold; /*太字に*/
       font-size: 4em;/*サイズ2倍*/
-      font-family :Quicksand, sans-serif;/*Google Font*/
+      font-family: 'Playfair Display SC', serif;/*Google Font*/
       top: 50;
       left: 50;
       }
