@@ -51,7 +51,7 @@
 </head>
 
 <body>
-
+<div class="wrapper1">
  
   <div class="body1">
     <header class="header">
@@ -234,4 +234,5 @@
 
 
 </footer>
+</div>
 </html>
