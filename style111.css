@@ -333,9 +333,9 @@ to {
 }}
 @media screen and (max-width: 360px) {
   .content1 {
-    margin:0px 0px 0px;
+    margin:10px 0px 0px;
     width: 360px;
-    height:200px;
+    height:150px;
   }}
 
 @media screen and (min-width: 360px) {
@@ -346,9 +346,9 @@ to {
   }}
   @media screen and (max-width: 360px) {
     .content2 {
-      margin:0px 0px 0px;
+      margin:10px 0px 0px;
       width: 360px;
-      height:350px;
+      height:250px;
       }}
 
 
