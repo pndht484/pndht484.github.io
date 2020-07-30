@@ -318,7 +318,7 @@ to {
  @media screen and (max-width: 360px) {
     .wrap {
      width: 360px;
-     height:550px;
+     height:410px;
      background: rgba(58, 40, 52, 0.925);
      }}
    
