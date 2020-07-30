@@ -191,6 +191,7 @@
            <p><input type="submit" value="送信"></p>
   </form>
 </div>
+</div>
 </body>
 
 
@@ -234,5 +235,4 @@
 
 
 </footer>
-</div>
 </html>
