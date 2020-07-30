@@ -48,15 +48,6 @@
     }
   </style>
 
-<script>
-  $(function() {
-    $("#datepicker").datepicker();
-    $("#datepicker").datepicker("option", "showOn", 'button');
-    $("#datepicker").datepicker("option", "buttonImageOnly", true);
-    $("#datepicker").datepicker("option", "buttonImage", 'ico_calendar.png');
-  });
-</script>
-
 </head>
 
 <body >
@@ -81,7 +72,7 @@
  
 
   <div id="vegas">
-    <div class="example">
+    <div class="wf-mplus1p">
         <p>当ホームページにお越しいただき<br>
          まことにありがとうございます</p>	
     </div>
