@@ -18,10 +18,11 @@ body {
   background: url("3.jpg");
   background-size: 150%;
   background-color: #C0C0C0;
-  overflow-x: hidden;
  }
 
-
+.wrapper1 {
+  overflow-x: hidden;
+}
 
  .body1 {
   margin: 0;
