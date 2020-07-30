@@ -72,7 +72,7 @@
  
 
   <div id="vegas">
-    <div class="wf-mplus1p">
+    <div class="example”>
         <p>当ホームページにお越しいただき<br>
          まことにありがとうございます</p>	
     </div>
