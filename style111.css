@@ -21,7 +21,7 @@ body {
   color: rgba(245, 247, 240, 0.829);
   line-height: 2.0;
   background: url("3.jpg");
-  background-size: 150%;
+  background-size: cover;
   background-color: #C0C0C0;
   width: 80%;
  }
