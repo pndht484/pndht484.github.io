@@ -51,7 +51,7 @@
 </head>
 
 <body>
-<div class="wrapper1">
+
  
   <div class="body1">
     <header class="header">
@@ -190,7 +190,6 @@
       </fieldset>
            <p><input type="submit" value="送信"></p>
   </form>
-</div>
 </div>
 </body>
 
