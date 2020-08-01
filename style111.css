@@ -561,14 +561,22 @@ div.h2 > p {
         color: #ffffff;
         font-weight: bold;
             }
-         
-.box28-2 {
+        
+.box28-2-pc { display: block !important; }
+.box28-2-sp { display: none !important; }
+
+@media only screen and (max-width: 360px) {
+.box28-2-pc { display: none !important; }
+.box28-2-sp { display: block !important; }
+}
+
+.box28-2-pc {
   position: relative;
   margin: 2em 0;
   padding: 0.5em 2em;
   border: solid 3px #f70ed4;
 }
-    .box28-2 .box-title-2 {
+    .box28-2-pc .box-title-2-pc {
       position: absolute;
       display: block;
       top: -2px;
@@ -581,6 +589,27 @@ div.h2 > p {
       color: #ffffff;
       font-weight: bold;
   }
+
+.box28-2-sp {
+  position: relative;
+  margin: 2em 0;
+  padding: 0.5em 2em;
+  border: solid 3px #f70ed4;
+}
+    .box28-2-sp .box-title-2-sp {
+      position: absolute;
+      display: block;
+      top: -2px;
+      left: -2px;
+      padding: 0 9px;
+      height: 25px;
+      line-height: 25px;
+      font-size: 17px;
+      background: #f70ed4;
+      color: #ffffff;
+      font-weight: bold;
+  }
+
 
 .box28-3 {
   position: relative;
