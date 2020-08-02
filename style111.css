@@ -703,8 +703,8 @@ nav.NavMenu{
 　color: #000; /*文字色を黒にする*/
 　text-align: center; /*テキストを中央揃え*/
 　width: 100%; /*全幅表示*/
-　transform: translateY(-100%); /*ナビを上に隠す*/
-　transition: all 0.6s; /*アニメーションの時間を指定*/
+　transform: translateX(-100%); /*ナビを上に隠す*/
+　transition: all 0.6s linear; /*アニメーションの時間を指定*/
 }
 
 nav.NavMenu ul{
@@ -735,7 +735,7 @@ nav.NavMenu ul li a{
 
 /*トグルボタンが押されたときに付与するクラス*/
 nav.NavMenu.active{
-　transform: translateY(0%);
+　transform: translatex(0%);
 }
 
 /*トグルボタンのスタイルを指定*/
@@ -790,7 +790,3 @@ nav.NavMenu.active{
     -moz-transform: rotate(45deg);
     transform: rotate(45deg);
 }
-
-#fade{
-			display: none;
-		}
