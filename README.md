@@ -53,18 +53,12 @@
   </style>
 
 //トグルボタンが押されたときに、クラスを付与
-<script type="text/javascript">
-$(function() {
-　$('.Toggle').click(function() {
-　　$(this).toggleClass('active');
-
-　if ($(this).hasClass('active')) {
-　　$('.NavMenu').addClass('active');　 //クラスを付与
-　} else {
-　　$('.NavMenu').removeClass('active'); //クラスを外す
-　}
-　});
-});
+<scripr>
+$(function(){
+  $('.menu-btn').on('click', function(){
+    $('.menu').toggleClass('is-active');
+  });
+}());>
 </script>
 
 </head>
@@ -90,23 +84,15 @@ $(function() {
     </header>
     </div>
     
-    <!-- ナビメニュー部分 -->
-<nav class="NavMenu">
-　<ul>
-　　<li><a href="#">トップページ</a></li>
-            <li><a href="#">会社概要</a></li>
-            <li><a href="#">事業内容</a></li>
-            <li><a href="#">採用情報</a></li>
-            <li><a href="#">お問い合わせ</a></li>
-　</ul>
-</nav>
-<!-- ハンバーガーメニュー部分 --> 
-<div class="Toggle">
-　　<span></span>
-　　<span></span>
-　　<span></span>
-</div>
- 
+  <div class="menu-btn">
+      <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <div class="menu">
+      <div class="menu__item">トップページ</div>
+      <div class="menu__item">会社概要</div>
+      <div class="menu__item">事業内容</div>
+      <div class="menu__item">採用情報</div>
+    </div>
 
   <div id="vegas">
     <div class="example">
