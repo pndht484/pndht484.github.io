@@ -6,6 +6,7 @@
 html {
   margin: 0;
   padding:0;
+  overflow-x:hidden;
    }
 
   
@@ -16,8 +17,8 @@ html {
   font-weight: 500;
   color: rgba(245, 247, 240, 0.829);
   line-height: 2.0;
-  background-image: url("3.jpg");
-  background-size:cover;
+  background-image: url("3.jpg"); 
+
  }
 
 
