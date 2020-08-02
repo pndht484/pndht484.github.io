@@ -6,7 +6,7 @@
 html {
   margin: 0;
   padding:0;
-  overflow-x:hidden;
+
    }
 
   
@@ -18,7 +18,7 @@ html {
   color: rgba(245, 247, 240, 0.829);
   line-height: 2.0;
   background-image: url("3.jpg"); 
-
+  overflow-x:hidden;
  }
 
 
