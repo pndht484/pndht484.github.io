@@ -79,10 +79,12 @@
       <i class="fa fa-bars" aria-hidden="true"></i>
     </div>
     <div class="menu">
+    <h1><i class="fas fa-frog fa-spin"></i>週末副業社</h1>
       <div class="menu__item">トップページ</div>
       <div class="menu__item">会社概要</div>
       <div class="menu__item">事業内容</div>
       <div class="menu__item">採用情報</div>
+      <div class="menu__item">お問い合わせ</div>
     </div>
 
   <div id="vegas">
