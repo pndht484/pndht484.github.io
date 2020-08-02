@@ -74,7 +74,10 @@
       </div>
     </header>
     </div>
-    
+   
+    <div class="body2">
+     </div>
+     
   <div class="menu-btn">
       <i class="fa fa-bars" aria-hidden="true"></i>
     </div>
