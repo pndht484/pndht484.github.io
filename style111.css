@@ -22,13 +22,20 @@ html {
  }
 
 
-
+ @media screen and (min-width: 360px) {
  .body1 {
   margin: 0;
   padding: 0;
-  background: rgba(10, 1, 7, 0.925);
-   
- }
+ background: rgba(10, 1, 7, 0.925);
+  }}
+
+@media screen and (max-width: 360px) {
+ .body1 {
+　margin: 0;
+  padding: 0;
+   background-image: url("main-2.jpg");
+  }}
+
 
 h2,h3 {
   margin:0;
