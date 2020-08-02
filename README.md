@@ -46,6 +46,10 @@
       cursor: pointer;
       color: #fff;
     }
+    
+    	#fade{
+			display: none;
+		}
   </style>
 
 //トグルボタンが押されたときに、クラスを付与
