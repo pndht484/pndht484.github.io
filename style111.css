@@ -703,7 +703,7 @@ nav.NavMenu{
 　color: #000; /*文字色を黒にする*/
 　text-align: center; /*テキストを中央揃え*/
 　width: 100%; /*全幅表示*/
-　transform: translateX(-100%); /*ナビを上に隠す*/
+　transform: translateX(100vw); /*ナビを上に隠す*/
 　transition: all 0.6s linear; /*アニメーションの時間を指定*/
 }
 
@@ -735,7 +735,7 @@ nav.NavMenu ul li a{
 
 /*トグルボタンが押されたときに付与するクラス*/
 nav.NavMenu.active{
-　transform: translatex(0%);
+　transform: translateX(0%);
 }
 
 /*トグルボタンのスタイルを指定*/
