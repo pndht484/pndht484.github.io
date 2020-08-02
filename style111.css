@@ -17,9 +17,7 @@ html {
   color: rgba(245, 247, 240, 0.829);
   line-height: 2.0;
   background-image: url("3.jpg");
-   width           : 300px;
-      height          : 100px;
-
+  background-size:cover;
  }
 
 
