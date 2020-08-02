@@ -51,13 +51,6 @@
    </style>
 
 
-<script type="text/javascript">
-$(function(){
-  $('.menu-btn').on('click', function(){
-    $('.menu').toggleClass('is-active');
-  });
-});
-</script>
 
 </head>
 
