@@ -696,7 +696,7 @@ h4::before {
 /*----------------------------
 * メニュー開閉ボタン
 *----------------------------*/
-@media only screen and (max-width: 360px) {
+@media screen and (max-width: 360px) {
 .menu-btn{
   position: fixed;
   top: 20px;
