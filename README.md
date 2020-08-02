@@ -70,6 +70,23 @@
       </div>
     </header>
     </div>
+    
+    <!-- ナビメニュー部分 -->
+<nav class="NavMenu">
+　<ul>
+　　<li><a href="#">トップページ</a></li>
+            <li><a href="#">会社概要</a></li>
+            <li><a href="#">事業内容</a></li>
+            <li><a href="#">採用情報</a></li>
+            <li><a href="#">お問い合わせ</a></li>
+　</ul>
+</nav>
+<!-- ハンバーガーメニュー部分 --> 
+<div class="Toggle">
+　　<span></span>
+　　<span></span>
+　　<span></span>
+</div>
  
 
   <div id="vegas">
