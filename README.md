@@ -47,12 +47,9 @@
       color: #fff;
     }
     
-    	#fade{
-			display: none;
-		}
-  </style>
+   </style>
 
-//トグルボタンが押されたときに、クラスを付与
+
 <scripr>
 $(function(){
   $('.menu-btn').on('click', function(){
