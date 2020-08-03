@@ -75,7 +75,14 @@
     </header>
     </div>
    
-   <iframe src="https://assets.pinterest.com/ext/embed.html?id=315322411406710734" height="330" width="345" frameborder="0" scrolling="no" ></iframe>
+   <div width="350px"  height="350px">
+    <div class="example">
+    <img src="10.jpg">
+        <p>当ホームページにお越しいただき<br>
+         まことにありがとうございます</p>	
+    </div>
+   </div>
+
    
    
     <div class="body-sp">
