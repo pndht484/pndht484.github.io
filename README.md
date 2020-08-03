@@ -75,15 +75,8 @@
     </header>
     </div>
    
-   <div width="350px"  height="350px">
-    <div class="example">
     <img src="10.jpg">
-        <p>当ホームページにお越しいただき<br>
-         まことにありがとうございます</p>	
-    </div>
-   </div>
-
-   
+      
    
     <div class="body-sp">
      </div>
