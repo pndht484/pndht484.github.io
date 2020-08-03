@@ -21,20 +21,25 @@ html {
   overflow-x:hidden;
  }
 
+.body-pc { display: block !important; }
+.body-sp { display: none !important; }
 
- @media screen and (min-width: 360px) {
- .body1 {
+@media only screen and (max-width: 360px) {
+.body-pc { display: none !important; }
+.body-sp { display: block !important; }
+}
+
+ .body-pc {
   margin: 0;
   padding: 0;
  background: rgba(10, 1, 7, 0.925);
-  }}
+  }
 
-@media screen and (max-width: 360px) {
- .body2 {
+ .body-sp {
 　margin: 0;
   padding: 0;
    background-image: url("main-2.jpg");
-  }}
+  }
 
 
 h2,h3 {
