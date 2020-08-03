@@ -58,7 +58,7 @@
 
 
 
-  <div class="body1">
+  <div class="body-pc">
     <header class="header">
       <div class="content-wrapper header-nav">
       <h1><i class="fas fa-frog fa-spin"></i>週末副業社</h1>
@@ -75,7 +75,7 @@
     </header>
     </div>
    
-    <div class="body2">
+    <div class="body-sp">
      </div>
      
   <div class="menu-btn">
