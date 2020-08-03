@@ -330,7 +330,7 @@ to {
 
  @media screen and (max-width: 360px) {
     .wrap {
-     width: 360px;
+     width: 340px;
      height:410px;
      background: rgba(58, 40, 52, 0.925);
      }}
