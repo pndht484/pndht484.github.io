@@ -348,8 +348,8 @@ to {
  @media screen and (max-width: 360px) {
     .wrap-sp {
      display: block !important;
-     width: 360px;
-     height:410px;
+     width: 340px;
+     height:auto;
      background: rgba(58, 40, 52, 0.925);
      }
  .wrap-pc{
@@ -366,7 +366,7 @@ display: none !important;
 @media screen and (max-width: 360px) {
   .content1 {
     margin:10px 0px 0px;
-    width: 360px;
+    width: 340px;
     height:150px;
   }}
 
@@ -379,7 +379,7 @@ display: none !important;
   @media screen and (max-width: 360px) {
     .content2 {
       margin:10px 0px 0px;
-      width: 360px;
+      width: 340px;
       height:250px;
       }}
 
