@@ -24,7 +24,8 @@ html {
  .body-head {
   margin: 0;
   padding: 0;
-  background-color: #FFCCFF; 
+  background-color: #000033; 
+   color:#FF82B2;
   }
 
 .body-pc { display: block !important; }
