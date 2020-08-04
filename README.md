@@ -118,7 +118,6 @@
    </div>
  </div>
 
-@media (min-width: 360px) {
   <div class="box28-2-pc">
     <span class="box-title-2-pc">ショッピング</span>
    
@@ -130,9 +129,7 @@
     <img src="vegas_sample02.jpg" style="clip-path:  polygon(20% 0%, 100% 0%,100% 100%, 0% 100%);">
    </div>
   </div>
-}
 
-@media (max-width: 360px) {
     <div class="box28-2-sp" >
     <span class="box-title-2-sp">ショッピング</span>
     
@@ -144,7 +141,7 @@
     </p>
    </div>
   </div>
-}
+
 
 
 
