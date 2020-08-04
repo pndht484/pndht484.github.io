@@ -106,7 +106,6 @@
       <i class="fas fa-kiwi-bird fa-2x faa-wrench "></i>海外旅行好きなサイト</p></div>
     </h2>
 
-    <div class="wrap" >
     <div class="box28-1" >
     <span class="box-title-1">アクティビティ</span>
     
@@ -117,11 +116,9 @@
     <p>アラブストリートには、ファッション雑貨店や飲食店がずらり。２時間もあれば回れるコンパクトなエリアです。アラビア絨毯や籐かご、ソケット帽子などのムスリムの生活必需品や、エキゾチックな香りのお土産がたくさん見つかるでしょう。MRTブギス駅から徒歩圏内なので道に迷う心配はありません。
    </p>
    </div>
-  </div>
-</div>
+ 
 
 @media (min-width: 360px) {
-<div class="wrap-pc" >
   <div class="box28-2-pc">
     <span class="box-title-2-pc">ショッピング</span>
    
@@ -133,11 +130,9 @@
     <img src="vegas_sample02.jpg" style="clip-path:  polygon(20% 0%, 100% 0%,100% 100%, 0% 100%);">
    </div>
   </div>
-</div>
 }
 
 @media (max-width: 360px) {
-<div class="wrap-sp" >
     <div class="box28-2-sp" >
     <span class="box-title-2-sp">ショッピング</span>
     
@@ -149,13 +144,11 @@
     </p>
    </div>
   </div>
-</div>
 }
 
 
 
 
-<div class="wrap" >
   <div class="box28-3">
     <span class="box-title-3">食べ歩き</span>
     
@@ -167,7 +160,7 @@
    </p>
    </div>
 </div>
-</div>
+
 
 <div>
 <!--Call your modal-->
