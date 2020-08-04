@@ -128,7 +128,6 @@
          まことにありがとうございます</p>	
     </div>
   </div>
-</div>
 
   <h2>
     <div class="translate">
