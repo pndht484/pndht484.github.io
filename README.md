@@ -244,16 +244,48 @@
   
 
 <div class="box27">
-  <span class="box-title">お問い合わせフォーム</span>
-
-<form method="post" action="sample.cgi">
-      <fieldset>
-          <p>名前<input type="text" name="name1" size="10"></p>
-          <p>住所<input type="text" name="address1" size="30"></p>
-          <p>ご相談内容<input type="text" name="address1" size="100"></p>
-      </fieldset>
-           <p><input type="submit" value="送信"></p>
-  </form>
+ <div class="contact" id="contact">
+		<div class="contact-cover">
+			<div class="container text-center" data-aos="fade-up" data-aos-offset="200" data-aos-duration="2500">
+				<h2 class="contents-h2">Contact</h2>
+				<p class="contact-p">
+                制作のご依頼・ご相談（無料）などは
+                <br>
+                 メールアドレスまたはお問い合わせ欄からご連絡ください。
+				</p>
+				<p>
+				<a href="mailto:kitashoooooo@gmail.com" class="kitashoogmail">
+				<i class="far fa-envelope">
+				</i>
+				kitashoooooo@gmail.com
+				</a>
+				</p>
+				<div role="form" class="wpcf7" id="wpcf7-f23-o1" lang="ja" dir="ltr">
+				<div class="screen-reader-response">
+				</div>
+					<form class="wpcf7-form" novalidate="novalidate">
+						<div class="form-group">
+					    	<span class="wpcf7-form-control-wrap text-861">
+					    		<input type="text" name="text-861" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control form-control-lg" aria-required="true" aria-invalid="false" placeholder="お名前" id="name">
+					    	</span>
+					  	</div>
+						<div class="form-group">
+					   		 <span class="wpcf7-form-control-wrap email-957">
+					   		 	<input type="email" name="email-957" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form-control form-control-lg" aria-required="true" aria-invalid="false" placeholder="メールアドレス" id="email">
+					   		 </span>
+					  	</div>
+						<div class="form-group">
+					    	<span class="wpcf7-form-control-wrap textarea-193">
+					    		<textarea name="textarea-193" cols="40" rows="7" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required form-control form-control-lg" aria-required="true" aria-invalid="false" placeholder="お問い合わせ内容" id="body"></textarea>
+					    	</span>
+					  	</div>
+						<div class="text-center">
+							<input type="button" value="フォームを送信" class="wpcf7-form-control wpcf7-submit btn btn-secondary btn-center" id="ajax">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
 </div>
 </body>
 
