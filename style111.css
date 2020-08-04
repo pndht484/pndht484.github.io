@@ -21,6 +21,12 @@ html {
   overflow-x:hidden;
  }
 
+ .body-head {
+  margin: 0;
+  padding: 0;
+  background-color: #FFCCFF; 
+  }
+
 .body-pc { display: block !important; }
 .body-sp { display: none !important; }
 
