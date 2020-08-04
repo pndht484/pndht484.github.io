@@ -48,6 +48,34 @@
       color: #fff;
     }
     
+    @media screen and (min-width: 769px) {
+  .sp_only {
+    display: none; } }
+@media screen and (min-width: 415px) and (max-width: 768px) {
+  .sp_only {
+    display: none; } }
+
+@media screen and (min-width: 769px) {
+  .tb_only {
+    display: none; } }
+@media screen and (max-width: 414px) {
+  .tb_only {
+    display: none; } }
+
+@media screen and (min-width: 415px) and (max-width: 768px) {
+  .pc_only {
+    display: none; } }
+@media screen and (max-width: 414px) {
+  .pc_only {
+    display: none; } }
+
+@media screen and (min-width: 769px) {
+  .sp_tb_only {
+    display: none; } }
+
+@media screen and (max-width: 414px) {
+  .pc_tb_only {
+    display: none; } }
    </style>
 
 
@@ -56,9 +84,12 @@
 
 <body>
 
-
 <div class="body-head">
-  <div class="body-pc">
+<h1>ホームページ制作から運営まで<br class="sp_tb_only">サポートします！</h1>
+<p>ブログ対応ページ（Wordpress対応）<br class="sp_only">かつご要望に応じてAPIも追加対応<br class="tb_only">お困りのオーナー様必見！<br class="sp_only"><br class="pc_only">広告やメルマガなどの販促活動からページ作成まで<br class="sp_tb_only">ショップの成長をお手伝い！</p>
+</div>
+
+<div class="body-pc">
     <header class="header">
       <div class="content-wrapper header-nav">
       <h1><i class="fas fa-frog fa-spin"></i>週末副業社</h1>
