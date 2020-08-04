@@ -220,7 +220,17 @@
   });
 
 </script>
-  
+
+  <div class="wrap-pc" >
+  <div class="box28-2-pc">
+    <span class="box-title-2-pc">ショッピング</span>
+   
+   <div class="content2">  
+    <p>チャイナタウン駅から直通のアーケード街がパゴダストリート。雑貨店がひしめきあうメインストリートです。古くからの老舗レストランや最新雑貨ショップまで、新旧入り混じったチャイナタウンをくまなく散策してみましょう。きっとお気に入り点が見付かるハズ？
+    </p>
+  </div>
+  </div>
+  </div>
 
 <div class="box27">
   <span class="box-title">お問い合わせフォーム</span>
