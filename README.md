@@ -57,7 +57,7 @@
 <body>
 
 
-
+<div class="body-head">
   <div class="body-pc">
     <header class="header">
       <div class="content-wrapper header-nav">
@@ -99,6 +99,7 @@
          まことにありがとうございます</p>	
     </div>
   </div>
+</div>
 
   <h2>
     <div class="translate">
