@@ -76,7 +76,10 @@
 @media screen and (max-width: 414px) {
   .pc_tb_only {
     display: none; } }
-    
+ 
+/*---------------------------------------------------------------
+	contact
+/*---------------------------------------------------------------*/   
    div.wpcf7 {
 	margin: 0;
 	padding: 0;
@@ -224,7 +227,26 @@ div.wpcf7 .wpcf7-submit:disabled {
 .form-group {
 	margin-bottom: 1rem;
 }  
-  
+/*---------------------------------------------------------------
+	contact
+/*---------------------------------------------------------------*/
+.contact {
+	padding: 15px;
+	height: 750px !important;
+}
+
+.contact-cover {
+	padding-top: 15px;
+}
+
+.contact-p {
+	margin-bottom: 30px;
+}
+
+.kitashoogmail {
+	font-size: 26px;
+	margin-top: 0;  
+
    </style>
 
 
