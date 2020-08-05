@@ -458,7 +458,7 @@ div.wpcf7 .wpcf7-submit:disabled {
 			</div>
 		</div>
 </div>
-</body>
+
 
 
 <footer>
@@ -501,4 +501,5 @@ div.wpcf7 .wpcf7-submit:disabled {
 
 
 </footer>
+</body>
 </html>
