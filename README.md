@@ -246,6 +246,15 @@ div.wpcf7 .wpcf7-submit:disabled {
 .kitashoogmail {
 	font-size: 26px;
 	margin-top: 0;  
+/*---------------------------------------------------------------
+	About
+/*---------------------------------------------------------------*/
+
+.contents-h2 {
+	font-size: 50px;
+	margin-bottom: 25px;
+}
+
 
    </style>
 
@@ -415,6 +424,7 @@ div.wpcf7 .wpcf7-submit:disabled {
   
 
 <div class="box27">
+	<span class="box-title">お問い合わせ</span>
  <div class="contact" id="contact">
 		<div class="contact-cover">
 			<div class="container text-center" data-aos="fade-up" data-aos-offset="200" data-aos-duration="2500">
