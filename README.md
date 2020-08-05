@@ -175,7 +175,56 @@ div.wpcf7 input[type="file"]:disabled {
 div.wpcf7 .wpcf7-submit:disabled {
 	cursor: not-allowed;
 }
-   
+  
+/*---------------------------------------------------------------
+	contact
+/*---------------------------------------------------------------*/
+.contact {
+	padding: 50px;
+	background-image: url(../img/red-ocean-min.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: auto;
+	line-height: 1.9;
+	position: relative;
+}
+
+.contact::before {
+	padding-top: 50px;
+	background-color: rgba(0,0,0,0.4);
+	position: absolute;
+	width: 100%;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	content: ' ';
+}
+
+
+.contact-p {
+	font-size: 16px;
+	line-height: 1.5em;
+	color: #fff;
+}
+
+.kitashoogmail {
+	font-size: 30px;
+	display: inline-block;
+	margin: 25px 0 25px 0;
+	color: #fff;
+	font-family:'Bradley Hand','Georgia','Century',serif;
+}
+
+.kitashoogmail:hover {
+	color: #fff;
+}
+
+.form-group {
+	margin-bottom: 1rem;
+}  
+  
    </style>
 
 
