@@ -14,7 +14,7 @@
   crossorigin="anonymous"></script>
  
   <link href="style111.css" rel="stylesheet">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
 
   <script type="text/javascript" src="vegas.min.js"> </script>
   <script type="text/javascript" src="function.js"></script> 
@@ -256,7 +256,7 @@ div.wpcf7 .wpcf7-submit:disabled {
 	margin-bottom: 25px;
 }
 
-
+.container{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}@media (min-width:576px){.container{max-width:540px}
 
    </style>
 
