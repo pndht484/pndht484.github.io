@@ -256,7 +256,7 @@ div.wpcf7 .wpcf7-submit:disabled {
 	margin-bottom: 25px;
 }
 
-.container{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}@media (min-width:576px){.container{max-width:540px}
+
 
    </style>
 
