@@ -185,7 +185,7 @@ div.wpcf7 .wpcf7-submit:disabled {
 /*---------------------------------------------------------------*/
 .contact {
 	padding: 50px;
-	background-image: url("3.jpg");
+	background-color: #000;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
