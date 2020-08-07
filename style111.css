@@ -25,7 +25,7 @@ html {
   margin: 0;
   padding: 0;
   background-color: #000033; 
-   color:#FF82B2;
+   color:#FF82B2　!important;
   }
 
 .body-pc { display: block !important; }
@@ -771,22 +771,3 @@ h4::before {
 .menu.is-active{
   transform: translateX(0);
 }
-
-
-/* BOOTSTRAP*/
-
-.container-pc { display: block !important; }
-.container-sp { display: none !important; }
-
-@media only screen and (max-width: 360px) {
-.container-pc { display: none !important; }
-.container-sp { display: block !important; }
-}
-
-.container-pc{ 
-  margin: 0; 
-  padding: 0;}　
-
-.container-sp{
-   margin: 0; 
-  padding: 0;}
