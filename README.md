@@ -14,7 +14,7 @@
   crossorigin="anonymous"></script>
  
   <link href="style111.css" rel="stylesheet">
-<link href="https://portfolio.kitashooo.com/css/bootstrap.min.css" rel="stylesheet">
+<link href="bootstrap.css" rel="stylesheet">
 
   <script type="text/javascript" src="vegas.min.js"> </script>
   <script type="text/javascript" src="function.js"></script> 
