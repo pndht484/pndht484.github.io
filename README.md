@@ -440,7 +440,7 @@ div.wpcf7 .wpcf7-submit:disabled {
 				<a href="mailto:-------------@gmail.com" class="kitashoogmail">
 				<i class="far fa-envelope">
 				</i>
-				kitashoooooo@gmail.com
+				mitaoooooo@gmail.com
 				</a>
 				</p>
 				<div role="form" class="wpcf7" id="wpcf7-f23-o1" lang="ja" dir="ltr">
