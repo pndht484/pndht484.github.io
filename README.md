@@ -268,7 +268,7 @@ div.wpcf7 .wpcf7-submit:disabled {
 <body1>
 <div class="body-head">
 <h1>ホームページ制作から運営まで<br class="sp_tb_only">サポートします！</h1>
-<p>ブログ対応ページ（Wordpress対応）<br class="sp_only">かつご要望に応じてAPIも追加対応<br class="tb_only">お困りのオーナー様必見！<br class="sp_only"><br class="pc_only">広告やメルマガなどの販促活動からページ作成まで<br class="sp_tb_only">ショップの成長をお手伝い！</p>
+<p>ブログ対応ページ（Wordpress対応）<br class="sp_only">かつご要望に応じてAPIも追加対応<br class="tb_only">お困りのオーナー様必見！<br class="sp_only"><br class="pc_only">広告や<br class="sp_tb_only">販促活動からページ作成までをお手伝い！</p>
 </div>
 
 <div class="body-pc">
@@ -478,7 +478,7 @@ div.wpcf7 .wpcf7-submit:disabled {
   <!-- 背景を正方形で白抜き -->
   <div class="wrap-a" >
   <ul class="pattern-02 square"　>
-      <li >
+      <li>
         <div class="content1-a">
           <a href="#" class="icon-wrap icon-wrap-facebook">
               <i class="fab fa-facebook fa-3x"></i>
@@ -495,7 +495,6 @@ div.wpcf7 .wpcf7-submit:disabled {
           </a>
         </div>
       </li>
-<li>
 </ul>
 </div>
 
@@ -507,10 +506,8 @@ div.wpcf7 .wpcf7-submit:disabled {
 </div>
 
 <div>
-<h5>カレンダー</h5>
-<input type="text" id="datepicker">
-	 <a href="https://freecalend.com/open/mem125058_nopopon">カレンダー</a>
-	
+ <a href="https://freecalend.com/open/mem125058_nopopon">カレンダー</a>
+ <input type="text" id="datepicker">
 </div>
 
 
