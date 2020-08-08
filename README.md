@@ -265,7 +265,7 @@ div.wpcf7 .wpcf7-submit:disabled {
 </head>
 
 <body>
-
+<body1>
 <div class="body-head">
 <h1>ホームページ制作から運営まで<br class="sp_tb_only">サポートします！</h1>
 <p>ブログ対応ページ（Wordpress対応）<br class="sp_only">かつご要望に応じてAPIも追加対応<br class="tb_only">お困りのオーナー様必見！<br class="sp_only"><br class="pc_only">広告やメルマガなどの販促活動からページ作成まで<br class="sp_tb_only">ショップの成長をお手伝い！</p>
@@ -513,5 +513,6 @@ div.wpcf7 .wpcf7-submit:disabled {
 
 
 </footer>
+</body1>
 </body>
 </html>
