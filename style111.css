@@ -24,7 +24,7 @@ html {
  .body-head {
   margin: 0;
   padding: 0;
-  background-color: #000033; 
+  background-color: #000033!important; 
    color:#FF82B2　!important;
   }
 
@@ -181,7 +181,7 @@ section {
 
 .work::before {
   content: '';
-  background: #FF9F80;
+  background: #FF9F80!important;
   position: absolute;
   width: 100%;
   height: 600px;
