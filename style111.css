@@ -9,7 +9,10 @@ html {
 
    }
 
-  
+ body    {
+   background-color: #A7F1FF!important;
+    }
+
  body1    {
   margin: 0;
   padding: 0;
