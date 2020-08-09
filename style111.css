@@ -11,6 +11,7 @@ html {
 
  body    {
    background-color: #A7F1FF!important;
+   overflow-x:hidden!important;
     }
 
  body1    {
@@ -21,7 +22,7 @@ html {
   color: rgba(245, 247, 240, 0.829)!important;
   line-height: 2.0;
   background-color: #A7F1FF!important;
-  overflow-x:hidden!important;
+  
  }
 
  .body-head {
