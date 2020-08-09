@@ -484,15 +484,13 @@ div.wpcf7 .wpcf7-submit:disabled {
               <i class="fab fa-facebook fa-3x"></i>
           </a>
         </div>
-	       </li>
-         <li>
+
 	<div class="content2-a">
           <a href="#" class="icon-wrap icon-wrap-twitter">
             <i class="fab fa-twitter fa-3x"></i>
           </a>
         </div>
-	   </li>
-         <li>
+	   
 	<div class="content3-a">
           <a href="#" class="icon-wrap icon-wrap-line">
             <i class="fab fa-line fa-3x"></i>
