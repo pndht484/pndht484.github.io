@@ -476,8 +476,8 @@ div.wpcf7 .wpcf7-submit:disabled {
 <footer>
   
   <!-- 背景を正方形で白抜き -->
-  <div class="wrap-a" >
-  <ul class="pattern-02 square"　>
+  <div class="wrap-a">
+  <ul class="pattern-02 square">
       <li>
         <div class="content1-a">
           <a href="#" class="icon-wrap icon-wrap-facebook">
