@@ -324,7 +324,7 @@ div.wpcf7 .wpcf7-submit:disabled {
     <img src="vegas_sample01.jpg" style="clip-path:  polygon(20% 0%, 100% 0%,100% 100%, 0% 100%);">
     </div>
    <div class="content2">  
-    <p>アラブストリートには、ファッション雑貨店や飲食店がずらり。２時間もあれば回れるコンパクトなエリアです。アラビア絨毯や籐かご、ソケット帽子などのムスリムの生活必需品や、エキゾチックな香りのお土産がたくさん見つかるでしょう。MRTブギス駅から徒歩圏内なので道に迷う心配はありません。
+    <p>アラブストリートには、ファッション<br class="sp_only">雑貨店や飲食店がずらり。２時間もあ<br class="sp_only">れば回れるコンパクトなエリアです。<br class="sp_only">アラビア絨毯や籐かご、ソケット帽子<br class="sp_only">などのムスリムの生活必需品や、エキ<br class="sp_only">ゾチックな香りのお土産がたくさん見<br class="sp_only">つかるでしょう。MRTブギス駅から徒<br class="sp_only">歩圏内なので道に迷う心配はありませ<br class="sp_only">ん。
    </p>
    </div>
  </div>
@@ -333,7 +333,7 @@ div.wpcf7 .wpcf7-submit:disabled {
     <span class="box-title-2-pc">ショッピング</span>
    
    <div class="content2">  
-    <p>チャイナタウン駅から直通のアーケード街がパゴダストリート。雑貨店がひしめきあうメインストリートです。古くからの老舗レストランや最新雑貨ショップまで、新旧入り混じったチャイナタウンをくまなく散策してみましょう。きっとお気に入り点が見付かるハズ？
+    <p>チャイナタウン駅から直通のアーケー<br class="sp_only">ド街がパゴダストリート。雑貨店がひ<br class="sp_only">しめきあうメインストリートです。古<br class="sp_only">くからの老舗レストランや最新雑貨シ<br class="sp_only">ョップまで、新旧入り混じったチャイ<br class="sp_only">ナタウンをくまなく散策してみましょ<br class="sp_only">う。きっとお気に入り点が見付かるハ<br class="sp_only">ズ？
     </p>
   </div>
    <div class="content1">  
