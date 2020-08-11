@@ -688,15 +688,43 @@ div.h2 > p {
       font-weight: bold;
   }
 
+.box28-3-pc { display: block !important; }
+.box28-3-sp { display: none !important; }
 
-.box28-3 {
+@media only screen and (max-width: 360px) {
+.box28-3-pc { display: none !important; }
+.box28-3-sp { display: block !important; }
+}
+
+.box28-3-pc {
   position: relative;
   margin: 2em 0;
   padding: 0.5em 2em;
   border: solid 3px #1ff7ec;
   background: #000033;
 }
-.box28-3 .box-title-3 {
+.box28-3-pc .box-title-3-pc {
+    position: absolute;
+    display: block;
+    top: -2px;
+    left: -2px;
+    padding: 0 9px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 17px;
+    background: #1ff7ec;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.box28-3-sp {
+  position: relative;
+  margin: 2em 0;
+  padding: 0.5em 2em;
+  border: solid 3px #1ff7ec;
+  background: #000033;
+}
+.box28-3-sp .box-title-3-sp {
     position: absolute;
     display: block;
     top: -2px;
