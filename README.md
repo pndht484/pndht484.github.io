@@ -256,10 +256,190 @@ div.wpcf7 .wpcf7-submit:disabled {
 	margin-bottom: 25px;
 }
 
+/*---------------------------------------------------------------
+	crusel
+/*---------------------------------------------------------------*/
+   h7 {
+    max-width: 600px;
+     margin: 100px auto 20px;
+   }
+   .slider {
+     padding: 0;
+   }
+   .slider img {
+     width: 100%;
+     height: auto;
+   }
+   .slick-slide {
+     height: auto;
+   }
+   .slick-prev {
+     left: 10px;
+   }
+   .slick-next {
+     right: 10px;
+   }
+   .slick-prev, .slick-next {
+     z-index: 100;
+   }
+   .slick-prev::before, .slick-next::before {
+     font-size: 24px;
+   }
+   .slick-dots {
+     bottom: -40px;
+   }
 
+.thumbnail {
+  max-width: 700px;
+  margin: 0 auto 5px;
+  padding: 0;
+}
+.thumbnail img,
+.thumbnail-thumb img{
+  width: 100%;
+}
+.thumbnail-thumb {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.thumbnail-thumb li {
+  margin: 5px;
+}
+.thumbnial-thumb .slick-next {
+  right: 20px;
+  z-index: 100;
+}
+.thumbnail-thumb .slick-prev {
+  left: 15px;
+  z-index: 100;
+}
+.thumbnail-thumb .slick-current {
+  opacity: 0.5;
+}
+.thumbnail-thumb div div div {
+  cursor: pointer;
+}
 
-   </style>
+/* Slider */
+.slick-slider
+{
+    position: relative;
 
+    display: block;
+    box-sizing: border-box;
+
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+
+    height: auto;
+
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+</style>
 
 
 </head>
@@ -288,7 +468,19 @@ div.wpcf7 .wpcf7-submit:disabled {
 <h1>ホームページ制作から運営まで<br class="sp_tb_only">サポートします！</h1>
 <p>ブログ対応ページ（Wordpress対応）<br class="sp_only">かつご要望に応じてAPIも追加対応<br class="tb_only">致します！<br class="sp_only"><br class="pc_only">バナー広告や<br class="sp_tb_only">ページ改訂もサポートさせて頂きます！</p>
 </div>
-    <img src="10.jpg">
+  
+  <h7>4.サムネイルがついているスライダー</h7>
+<div class="thumbnail">
+    <div><img src="10old.jpg" alt=""></div>
+    <div><img src="main-2.jpg" alt=""></div>
+    <div><img src="6.jpg" alt=""></div>
+   
+</div>
+<div class="thumbnail-thumb">
+    <div><img src="10old.jpg" alt=""></div>
+    <div><img src="main-2.jpg" alt=""></div>
+    <div><img src="6.jpg" alt=""></div>
+</div>
       
    
        
