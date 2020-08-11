@@ -332,6 +332,7 @@ div.wpcf7 .wpcf7-submit:disabled {
    </div>
  </div>
 
+<div class="wrap-pc">
   <div class="box28-2-pc">
     <span class="box-title-2-pc">ショッピング</span>
    
@@ -343,6 +344,7 @@ div.wpcf7 .wpcf7-submit:disabled {
     <img src="vegas_sample02.jpg" style="clip-path:  polygon(20% 0%, 100% 0%,100% 100%, 0% 100%);">
    </div>
   </div>
+</div>
 
     <div class="box28-2-sp" >
     <span class="box-title-2-sp">ショッピング</span>
