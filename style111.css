@@ -350,6 +350,7 @@ to {
  .wrap-pc {
         display : flex!important; 
   flex-direction:row!important; 
+   justify-content:flex-start!important; 
   background: rgba(58, 40, 52, 0.925);
   
   }
@@ -618,7 +619,7 @@ div.h2 > p {
 }
 
 .box28-2-pc {
-  position: absolute;
+  position: relative;
   margin: 2em 0;
   padding: 0.5em 2em;
   border: solid 3px #f70ed4;
