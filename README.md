@@ -196,7 +196,7 @@ div.wpcf7 .wpcf7-submit:disabled {
 
 .contact::before {
 	padding-top: 50px;
-	background-color: rgba(0,0,0,0.4);
+	
 	position: absolute;
 	width: 100%;
 	top: 0;
