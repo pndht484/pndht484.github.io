@@ -288,7 +288,7 @@ div.wpcf7 .wpcf7-submit:disabled {
    .slick-dots {
      bottom: -40px;
    }
-
+   
 .thumbnail {
   max-width: 700px;
   margin: 0 auto 5px;
@@ -441,6 +441,76 @@ div.wpcf7 .wpcf7-submit:disabled {
 }
 </style>
 
+<script>
+$(document).ready(function () {
+
+  //1.画像を1枚表示するスライダー
+  $('.single').slick({
+    autoplay: true, //自動再生
+  });
+
+  //2.複数枚の画像を表示するスライダー
+  $('.multiple').slick({
+    autoplay: true, //自動再生
+    infinite: true, //スライドのループ有効化
+    dots: true, //ドットのナビゲーションを表示
+    slidesToShow: 4, //表示するスライドの数
+    slidesToScroll: 4, //スクロールで切り替わるスライドの数
+    responsive: [{
+      breakpoint: 768, //ブレークポイントが768px
+      settings: {
+        slidesToShow: 3, //表示するスライドの数
+        slidesToScroll: 3, //スクロールで切り替わるスライドの数
+      }
+    }, {
+      breakpoint: 480, //ブレークポイントが480px
+      settings: {
+        slidesToShow: 2, //表示するスライドの数
+        slidesToScroll: 2, //スクロールで切り替わるスライドの数
+      }
+    }]
+  });
+
+  //3.画像の切り替えをフェードにしたスライダー
+  $('.fade').slick({
+    autoplay: true, //自動再生
+    dots: true, //ドットのナビゲーションを表示
+    infinite: true, //スライドのループ有効化
+    speed: 1000, //切り替えのスピード（小さくすると速くなる）
+    fade: true, //フェードの有効化
+  });
+
+  //4.サムネイルがついているスライダー
+  $('.thumbnail').slick({
+    infinite: true, //スライドのループ有効化
+    arrows: false, //矢印非表示
+    fade: true, //フェードの有効化
+    draggable: false //ドラッグ操作の無効化
+  });
+  $('.thumbnail-thumb').slick({
+    infinite: true, //スライドのループ有効化
+    slidesToShow: 8, //表示するスライドの数
+    focusOnSelect: true, //フォーカスの有効化
+    asNavFor: '.thumbnail', //thumbnailクラスのナビゲーション
+  });
+
+  //5.センター寄せ両サイド表示
+  $('.center').slick({
+    infinite: true, //スライドのループ有効化
+    dots: true, //ドットのナビゲーションを表示
+    centerMode: true, //要素を中央寄せ
+    centerPadding: '10%', //両サイドの見えている部分のサイズ
+    autoplay: true, //自動再生
+  });
+
+  //6.縦のスライダー
+  $('.vertical').slick({
+    autoplay: true, //自動再生
+    vertical: true, //縦のスライドを有効化
+  });
+
+});
+</script>
 
 </head>
 
