@@ -295,6 +295,7 @@ div.wpcf7 .wpcf7-submit:disabled {
   <div class="menu-btn">
       <i class="fa fa-bars" aria-hidden="true"></i>
     </div>
+    
     <div class="menu">
     <h1><i class="fas fa-frog fa-spin"></i>週末副業社</h1>
       <div class="menu__item">トップページ</div>
