@@ -351,8 +351,7 @@ to {
         display : flex!important; 
   flex-direction:row!important; 
    justify-content:flex-start!important; 
-  background: rgba(58, 40, 52, 0.925);
-  
+   
   }
 
  .wrap-sp { display: none !important; }
