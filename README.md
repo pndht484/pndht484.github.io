@@ -371,9 +371,9 @@ div.wpcf7 .wpcf7-submit:disabled {
    </div>
   </div>
 
-  <div class="box28-3-pc">
-    <span class="box-title-3-pc">食べ歩き</span>
-    
+ <div class="box28-3">
+    <span class="box-title-3">食べ歩き</span>
+    <div class="wrap-pc">
    <div class="content1">  
     <img src="vegas_sample03.jpg" style="clip-path:  polygon(20% 0%, 100% 0%,100% 100%, 0% 100%);">
     </div>
@@ -382,20 +382,7 @@ div.wpcf7 .wpcf7-submit:disabled {
    </p>
    </div>
 </div>
-</div>
-
- <div class="box28-3-sp">
-    <span class="box-title-3-sp">食べ歩き</span>
-    
-   <div class="content1">  
-    <img src="vegas_sample03.jpg" style="clip-path:  polygon(20% 0%, 100% 0%,100% 100%, 0% 100%);">
-    </div>
-   <div class="content2">  
-    <p>「ハイナンチキンライス（海南鶏飯）<br class="sp_only">」は、シンガポールグルメの代表格と<br class="sp_only">言っても過言ではありません。鶏の脂<br class="sp_only">で炒めた白米を、同じく鶏からとった<br class="sp_only">スープで調理したご飯に、茹でた鶏肉<br class="sp_only">が添えられたもの。あっさりとした旨<br class="sp_only">味が日本人の口にもよく合います。
-   </p>
-   </div>
-</div>
-
+  </div>
 
 <div>
 <!--Call your modal-->
