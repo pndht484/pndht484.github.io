@@ -320,7 +320,20 @@ div.wpcf7 .wpcf7-submit:disabled {
 	</div>
     </h2>
 
-    <div class="box28-1" >
+   <div class="box28-2-pc">
+    <span class="box-title-1">アクティビティ</span>
+    <div class="wrap-pc">
+    <div class="content1">  
+    <img src="vegas_sample01.jpg" style="clip-path:  polygon(20% 0%, 100% 0%,100% 100%, 0% 100%);">
+    </div>
+   <div class="content2">  
+    <p>アラブストリートには、ファッション<br class="sp_only">雑貨店や飲食店がずらり。２時間もあ<br class="sp_only">れば回れるコンパクトなエリアです。<br class="sp_only">アラビア絨毯や籐かご、ソケット帽子<br class="sp_only">などのムスリムの生活必需品や、エキ<br class="sp_only">ゾチックな香りのお土産がたくさん見<br class="sp_only">つかるでしょう。MRTブギス駅から徒<br class="sp_only">歩圏内なので道に迷う心配はありませ<br class="sp_only">ん。
+   </p>
+   </div>
+ </div>
+</div>
+
+   <div class="box28-2-sp" >
     <span class="box-title-1">アクティビティ</span>
     
     <div class="content1">  
@@ -331,7 +344,6 @@ div.wpcf7 .wpcf7-submit:disabled {
    </p>
    </div>
  </div>
-
 
   <div class="box28-2-pc">
     <span class="box-title-2-pc">ショッピング</span>
