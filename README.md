@@ -266,7 +266,7 @@ div.wpcf7 .wpcf7-submit:disabled {
 
 <body>
 
-
+<body1>
 <div class="body-pc">
     <header class="header">
       <div class="content-wrapper header-nav">
@@ -284,6 +284,10 @@ div.wpcf7 .wpcf7-submit:disabled {
     </header>
     </div>
    
+   <div class="body-head">
+<h1>ホームページ制作から運営まで<br class="sp_tb_only">サポートします！</h1>
+<p>ブログ対応ページ（Wordpress対応）<br class="sp_only">かつご要望に応じてAPIも追加対応<br class="tb_only">致します！<br class="sp_only"><br class="pc_only">バナー広告や<br class="sp_tb_only">ページ改訂もサポートさせて頂きます！</p>
+</div>
     <img src="10.jpg">
       
    
@@ -300,11 +304,8 @@ div.wpcf7 .wpcf7-submit:disabled {
       <div class="menu__item">お問い合わせ</div>
     </div>
 
-<body1>
-<div class="body-head">
-<h1>ホームページ制作から運営まで<br class="sp_tb_only">サポートします！</h1>
-<p>ブログ対応ページ（Wordpress対応）<br class="sp_only">かつご要望に応じてAPIも追加対応<br class="tb_only">致します！<br class="sp_only"><br class="pc_only">バナー広告や<br class="sp_tb_only">ページ改訂もサポートさせて頂きます！</p>
-</div>
+
+
 	
 <div id="vegas">
     <div class="example">
