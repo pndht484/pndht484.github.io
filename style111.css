@@ -349,10 +349,7 @@ to {
 
  .wrap-pc {
         display : flex!important; 
-　display : inline-flex;
-  flex-direction:row;
-  width: 1200px;
-  height:300px;
+  flex-direction:row!important; 
   background: rgba(58, 40, 52, 0.925);
   
   }
