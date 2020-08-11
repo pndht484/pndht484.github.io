@@ -464,15 +464,15 @@ display: none !important;
 }
 
 .pattern-02 .icon-wrap:hover.icon-wrap-facebook {
-  color: #1877f2;
+  color: #1877f2!important;;
 }
 
 .pattern-02 .icon-wrap:hover.icon-wrap-twitter {
-  color: #1da1f2;
+  color: #1da1f2!important;;
 }
 
 .pattern-02 .icon-wrap:hover.icon-wrap-line {
-  color: #00B900;
+  color: #00B900!important;;
 }
 
 /*
