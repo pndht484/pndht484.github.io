@@ -348,7 +348,7 @@ to {
    
 
  .wrap-pc {
-   position: relative!important;
+   position: absolute!important;
         display : flex!important; 
   flex-direction:row!important; 
    justify-content:flex-start!important; 
