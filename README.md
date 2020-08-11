@@ -351,7 +351,7 @@ div.wpcf7 .wpcf7-submit:disabled {
     <img src="vegas_sample02.jpg" style="clip-path:  polygon(20% 0%, 100% 0%,100% 100%, 0% 100%);">
     </div>
    <div class="content2">  
-    <p>チャイナタウン駅から直通のアーケード街がパゴダストリート。雑貨店がひしめきあうメインストリートです。古くからの老舗レストランや最新雑貨ショップまで、新旧入り混じったチャイナタウンをくまなく散策してみましょう。きっとお気に入り点が見付かるハズ？
+    <p>チャイナタウン駅から直通のアーケー<br class="sp_only">ド街がパゴダストリート。雑貨店がひ<br class="sp_only">しめきあうメインストリートです。古<br class="sp_only">くからの老舗レストランや最新雑貨シ<br class="sp_only">ョップまで、新旧入り混じったチャイ<br class="sp_only">ナタウンをくまなく散策してみましょ<br class="sp_only">う。きっとお気に入り点が見付かるハ<br class="sp_only">ズ？
     </p>
    </div>
   </div>
@@ -367,7 +367,7 @@ div.wpcf7 .wpcf7-submit:disabled {
     <img src="vegas_sample03.jpg" style="clip-path:  polygon(20% 0%, 100% 0%,100% 100%, 0% 100%);">
     </div>
    <div class="content2">  
-    <p>「ハイナンチキンライス（海南鶏飯）」は、シンガポールグルメの代表格と言っても過言ではありません。鶏の脂で炒めた白米を、同じく鶏からとったスープで調理したご飯に、茹でた鶏肉が添えられたもの。あっさりとした旨味が日本人の口にもよく合います。
+    <p>「ハイナンチキンライス（海南鶏飯）<br class="sp_only">」は、シンガポールグルメの代表格と<br class="sp_only">言っても過言ではありません。鶏の脂<br class="sp_only">で炒めた白米を、同じく鶏からとった<br class="sp_only">スープで調理したご飯に、茹でた鶏肉<br class="sp_only">が添えられたもの。あっさりとした旨<br class="sp_only">味が日本人の口にもよく合います。
    </p>
    </div>
 </div>
@@ -376,9 +376,9 @@ div.wpcf7 .wpcf7-submit:disabled {
 <div>
 <!--Call your modal-->
 <ul>
-  <h4>コーディングツール</h4>
+  <h4>WORKS</h4>
   <li>
-    <a id="demo01" href="#animatedModal" >WORKS</a>
+    <a id="demo01" href="#animatedModal" >コーディングツール</a>
     </li>
 </ul>
 </div>
