@@ -348,10 +348,13 @@ to {
    
 
  .wrap-pc {
-   display: block !important; 
+        display : flex!important; 
+　display : inline-flex;
+  flex-direction:row;
   width: 1200px;
   height:300px;
   background: rgba(58, 40, 52, 0.925);
+  
   }
 
  .wrap-sp { display: none !important; }
