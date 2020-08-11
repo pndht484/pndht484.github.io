@@ -185,7 +185,7 @@ div.wpcf7 .wpcf7-submit:disabled {
 /*---------------------------------------------------------------*/
 .contact {
 	padding: 50px;
-	background-image: url("3.jpg");
+	
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -512,7 +512,6 @@ div.wpcf7 .wpcf7-submit:disabled {
 
 <div>
  <a href="https://freecalend.com/open/mem125058_nopopon">カレンダー</a>
- <input type="text" id="datepicker">
 </div>
 
 
