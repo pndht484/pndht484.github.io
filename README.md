@@ -332,10 +332,11 @@ div.wpcf7 .wpcf7-submit:disabled {
    </div>
  </div>
 
-<div class="wrap-pc">
+
   <div class="box28-2-pc">
     <span class="box-title-2-pc">ショッピング</span>
-   
+	
+   <div class="wrap-pc">
    <div class="content2">  
     <p>チャイナタウン駅から直通のアーケー<br class="sp_only">ド街がパゴダストリート。雑貨店がひ<br class="sp_only">しめきあうメインストリートです。古<br class="sp_only">くからの老舗レストランや最新雑貨シ<br class="sp_only">ョップまで、新旧入り混じったチャイ<br class="sp_only">ナタウンをくまなく散策してみましょ<br class="sp_only">う。きっとお気に入り点が見付かるハ<br class="sp_only">ズ？
     </p>
