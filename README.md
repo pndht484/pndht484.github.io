@@ -313,8 +313,11 @@ div.wpcf7 .wpcf7-submit:disabled {
 
   <h2>
     <div class="translate">
-    <p class="border-bottom">
-      <i class="fas fa-kiwi-bird fa-2x faa-wrench "></i>海外旅行好きなサイト</p></div>
+    <span>
+	    <p class="border-bottom">
+	    <i class="fas fa-kiwi-bird fa-2x faa-wrench "></i>海外旅行好きなサイト</p>
+	    </span>
+	</div>
     </h2>
 
     <div class="box28-1" >
