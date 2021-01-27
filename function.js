@@ -1,7 +1,7 @@
 $(function() {
     $('#vegas').vegas({
         slides: [
-            { src: 'vegas_sample01.jpg' },
+            { src: 'vegas_sample01.jpg' width="193" height="130"},
             { src: 'vegas_sample02.jpg' },
             { src: 'vegas_sample03.jpg' },
             { src: 'vegas_sample04.jpg' },
