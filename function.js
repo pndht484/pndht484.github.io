@@ -23,7 +23,7 @@ $(function() {
     });
 });
 
-
+<!--
 if(wi <= 640){
 $(function() {
     $('#vegas').vegas({
@@ -39,7 +39,7 @@ $(function() {
         transitionDuration :3000
     });
 });
-
+-->
    
 });
 
