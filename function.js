@@ -1,8 +1,8 @@
-$(window).resize(function() {
+<!--$(window).resize(function() {
 wi = $(window).width();
 
 if(wi > 640){
-
+-->
 $(function() {
     $('#vegas').vegas({
         slides: [
