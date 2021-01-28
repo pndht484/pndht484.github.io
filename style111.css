@@ -577,6 +577,8 @@ div.h2 > p{
   }
   .example {/*親div*/
     position: relative;/*相対配置*/
+    width:auto;
+    height:500px;
     }
   
     .example p {
