@@ -544,9 +544,9 @@ display: none !important;
   padding: 0;
 }
 
-div.h2 > p {
+div.h2 > p{
  border-bottom : solid 2px #555;
-  width: auto;
+  width:100%;
   }
 
     @media screen and (min-width: 360px) {
