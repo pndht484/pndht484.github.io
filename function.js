@@ -1,3 +1,8 @@
+$(window).resize(function() {
+wi = $(window).width();
+
+if(wi > 640){
+
 $(function() {
     $('#vegas').vegas({
         slides: [
@@ -19,14 +24,10 @@ $(function() {
 });
 
 
-$(window).resize(function() {
-wi = $(window).width();
-
 if(wi <= 640){
 $(function() {
     $('#vegas').vegas({
-                      delay: 10000,
-        'options','slides': [
+          'options','slides': [
              { src: 'vegas_sample01.jpg_sp' },
             { src: 'vegas_sample02.jpg_sp' },
             { src: 'vegas_sample03.jpg' },
