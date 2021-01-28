@@ -546,7 +546,7 @@ display: none !important;
 
 div.h2 > p{
  border-bottom : solid 2px #555;
-  width:100%;
+  
   }
 
     @media screen and (min-width: 360px) {
