@@ -8,8 +8,7 @@ $(function() {
             { src: 'vegas_sample05.jpg' }
         ],
         
-       width:193,
-       height:130,
+       
         transition: 'fade', //スライドを遷移させる際のアニメーション
         transitionDuration: 4000, //スライドの遷移アニメーションの時間
         delay: 2000, //スライド切り替え時の遅延時間
@@ -18,6 +17,33 @@ $(function() {
        
     });
 });
+
+
+$(window).resize(function() {
+wi = $(window).width();
+
+if(wi <= 640){
+$(function() {
+    $('#vegas').vegas({
+                      delay: 10000,
+        slides: [
+             { src: 'vegas_sample01.jpg_sp' },
+            { src: 'vegas_sample02.jpg_sp' },
+            { src: 'vegas_sample03.jpg' },
+            { src: 'vegas_sample04.jpg' },
+            { src: 'vegas_sample05.jpg' }
+        ],
+        overlay: 'common/js/vegas/overlays/07.png',
+        transition: 'blur',
+        transitionDuration :3000
+    });
+});
+
+   
+});
+
+
+
 
 $(function(){
     $('.menu-btn').on('click', function(){
