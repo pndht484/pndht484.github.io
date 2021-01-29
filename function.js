@@ -1,8 +1,8 @@
 <!--$(window).resize(function() {
 wi = $(window).width();
 
-if(wi > 640){
--->
+if(wi > 640){-->
+    
 $(function() {
     $('#vegas').vegas({
         slides: [
@@ -39,8 +39,7 @@ $(function() {
         transitionDuration :3000
     });
 });
--->
-   <!--
+
 });
 -->
 
