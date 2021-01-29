@@ -566,18 +566,9 @@ div.h2 > p{
   }}
   
   
-  @keyframes anim {
-    0% {
-    transform: translateX(700px);
-    }
-  
-    100% {
-    transform: translateX(0px);
-    }
-  }
-  .example {/*親div*/
+   .example {/*親div*/
     position: relative;/*相対配置*/
-  
+    width:auto;
     }
   
     .example p {
