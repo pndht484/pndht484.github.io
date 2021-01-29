@@ -1,8 +1,4 @@
-<!--$(window).resize(function() {
-wi = $(window).width();
 
-if(wi > 640){-->
-    
 $(function() {
     $('#vegas').vegas({
         slides: [
@@ -23,25 +19,8 @@ $(function() {
     });
 });
 
-<!--
-if(wi <= 640){
-$(function() {
-    $('#vegas').vegas({
-          'options','slides': [
-             { src: 'vegas_sample01.jpg_sp' },
-            { src: 'vegas_sample02.jpg_sp' },
-            { src: 'vegas_sample03.jpg' },
-            { src: 'vegas_sample04.jpg' },
-            { src: 'vegas_sample05.jpg' }
-        ],
-        overlay: 'common/js/vegas/overlays/07.png',
-        transition: 'blur',
-        transitionDuration :3000
-    });
-});
 
-});
--->
+
 
 
 
