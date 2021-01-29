@@ -2,8 +2,8 @@
 $(function() {
     $('#vegas').vegas({
         slides: [
-            { src: 'vegas_sample01_sp.jpg' },
-            { src: 'vegas_sample02_sp.jpg' },
+            { src: 'vegas_sample01.jpg' },
+            { src: 'vegas_sample02.jpg' },
             { src: 'vegas_sample03.jpg' },
             { src: 'vegas_sample04.jpg' },
             { src: 'vegas_sample05.jpg' }
