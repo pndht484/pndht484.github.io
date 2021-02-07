@@ -9,7 +9,7 @@ $(function() {
         animationDuration: 4000, //スライド表示中のアニメーションの時間
         
         slides: [
-            { src: 'vegas_sample01.jpg' },
+            { src: 'vegas_sample01_pc.png' },
             { src: 'vegas_sample02.jpg' },
             { src: 'vegas_sample03.jpg' },
             { src: 'vegas_sample04.jpg' },
